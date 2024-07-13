@@ -1,0 +1,16 @@
+---
+import { Form } from "@/components/form";
+
+import Layout from "@/layouts/layout.astro";
+---
+
+<Layout title="subtle">
+  <header class="flex flex-col justify-around">
+    <h1 class="select-none text-center text-6xl font-semibold text-sky-500">
+      subtle
+    </h1>
+  </header>
+  <main class="w-full max-w-96 px-4">
+    <Form client:load />
+  </main>
+</Layout>
